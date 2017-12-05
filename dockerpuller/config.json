@@ -1,8 +1,10 @@
 {
-    "host": "localhost",
-    "port": 8000,
-    "token": "abc123",
+    "host": "0.0.0.0",
+    "port": 8001,
     "hooks": {
-        "hello": "scripts/hello.sh"
+        "update": {
+          "token": "test123",
+          "call": "scripts/update_repo.sh"
+        }
     }
 }
