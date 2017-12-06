@@ -8,7 +8,7 @@ RUN apt-get update && \
  apt-get -y clean && \
  rm -rf /var/lib/apt/lists/*
 
-RUN pip install mkdocs
+RUN pip install mkdocs mkdocs-material
 
 ADD requirements.txt /
 RUN pip install -r requirements.txt
