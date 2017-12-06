@@ -3,7 +3,7 @@
     "port": 8001,
     "hooks": {
         "update": {
-          "token": "test123",
+          "token": "{secret}",
           "call": "scripts/update_repo.sh"
         }
     }

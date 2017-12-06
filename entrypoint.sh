@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # start docker-puller
+rpl {secret} $UPDATE_TOKEN /app/config.json
 cd /app && python app.py &
 
 # clone project and checkout target branch
